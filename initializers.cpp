@@ -28,7 +28,8 @@ int main(){
     int narrowing_conversation_functional (2.9);
 
     std::cout<<narrowing_conversation_functional<<std::endl;
-    
+
+    std::cout<<"size of int is :"<<sizeof(int)<<std::endl;
 
     return 0;
 }
