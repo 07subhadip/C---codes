@@ -24,5 +24,11 @@ int main(){
 
     std::cout<<"total :"<<total<<std::endl;
     std::cout<<"total :"<<anotherTotal<<std::endl;
+
+    int narrowing_conversation_functional (2.9);
+
+    std::cout<<narrowing_conversation_functional<<std::endl;
+    
+
     return 0;
 }
