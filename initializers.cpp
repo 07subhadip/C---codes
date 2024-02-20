@@ -14,4 +14,11 @@ int main(){
     int number = 123;
 
     std::cout<<age<<std::endl<<percentage<<std::endl<<number<<std::endl;
+
+    // can use expression as initializer
+
+    int total {age + percentage};
+
+    std::cout<<"total :"<<total<<std::endl;
+    return 0;
 }
