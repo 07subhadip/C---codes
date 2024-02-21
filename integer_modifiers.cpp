@@ -1,4 +1,5 @@
 #include<iostream>
+#include<iomanip> // this is to add std::precision in the floating point variables
 
 int main(){
     std::cout<<"*******************************************************************************"<<std::endl;
@@ -46,6 +47,22 @@ int main(){
     std::cout<<"sizeof(long long) : "<<sizeof(long long)<<std::endl;
 
     std::cout<<"******************************************************************************"<<std::endl;
+
+
+    // floating point numbers initialization
+
+    float value1 {1.3423423523524f};   // precision = 7 
+    double value2 {3.4234234224545345}; // precision = 15
+    long double value3 {343.4235245454543534l}; //precision > 15
+
+    std::cout<<std::setprecision(20);
+    std :: cout << "float : "<<value1<<std::endl;
+    std:: cout<<"double : "<<value2<<std::endl;
+    std::cout<<"long double : "<<value3<<std::endl;
+
+    std::cout<<"size of float : "<<sizeof(float)<<std::endl;
+    std::cout<<"size of double : "<<sizeof(double)<<std::endl;
+    std::cout<<"size of long double : "<<sizeof(long double)<<std::endl;
 
     return 0;
 }
