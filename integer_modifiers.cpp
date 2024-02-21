@@ -43,7 +43,7 @@ int main(){
 
     std::cout<<"long_long : "<<long_long<<std::endl<<"long_long_int : "<<long_long_int<<std::endl<<"signed_long_long : "<<signed_long_long<<std::endl<<"signed_long_long_int : "<<signed_long_long_int<<std::endl<<"unsigned_long_long_int : "<<unsigned_long_long_int<<std::endl;
 
-    std::cout<<"sizeof(long long)"<<sizeof(long long)<<std::endl;
+    std::cout<<"sizeof(long long) : "<<sizeof(long long)<<std::endl;
 
     std::cout<<"******************************************************************************"<<std::endl;
 
