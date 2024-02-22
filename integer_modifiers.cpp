@@ -64,5 +64,38 @@ int main(){
     std::cout<<"size of double : "<<sizeof(double)<<std::endl;
     std::cout<<"size of long double : "<<sizeof(long double)<<std::endl;
 
+    std::cout<<"******************************************************************************"<<std::endl;
+
+    // we can take input using e (exponential operators)
+
+    double expo = {1.432423e6};
+
+    long double expo2  {1.342342e-11};
+
+    std::cout<<"expo : "<<expo<<std::endl<<"expo2 : "<<expo2<<std::endl;
+    
+    std::cout<<"******************************************************************************"<<std::endl;
+
+    double numberX {5.6};
+    double numberY {-5.6};
+    double number1{};
+    double number2 {};
+
+    //infinity
+
+    double result {numberX/number1};
+
+    std::cout<<numberX<<" / "<<number1<<" = "<<result<<std::endl;    // infinity will output as inf
+
+    result = {numberY/number1};
+
+    std::cout<<numberY<<" / "<<number1<<" = "<<result<<std::endl;   // print -inf
+    //NaN
+    
+    result = number1/number2;
+
+    std::cout<<number1<<" / "<<number2<<" = "<<result<<std::endl;  // it will print as nan
+    
+
     return 0;
 }
