@@ -12,7 +12,6 @@ int main(){
 
     // long long int g {32423432423};
     // std::cout<<sizeof(g)<<std::endl;
-    
     std::cout<<sizeof(var1)<<std::endl;
     std::cout<<sizeof(var2)<<std::endl;
     std::cout<<sizeof(var3)<<std::endl;
