@@ -79,5 +79,56 @@ int main(){
     std::cout<<std::setw(col_width)<<"Mithu"<<std::setw(col_width)<<"Hensh"<<std::setw(col_width)<<"42"<<std::endl;
     std::cout<<std::setw(col_width)<<"Dipak"<<std::setw(col_width)<<"Hensh"<<std::setw(col_width)<<"44"<<std::endl;
 
+    std::cout<<"****************************************"<<std::endl<<std::endl;
+
+    std::cout<<"showpos"<<std::endl<<std::endl;
+
+    int a{23};
+    int b{-45};
+
+    std::cout<<"a : "<<a<<std::endl;
+    std::cout<<"b : "<<b<<std::endl;
+
+    std::cout<<std::showpos;
+
+    std::cout<<"pos_show : "<<a<<std::endl;
+    std::cout<<"neg_show : "<<b<<std::endl<<std::endl;
+
+    std::cout<<"noshowpos"<<std::endl<<std::endl;
+    
+    std::cout<<std::noshowpos;
+
+    std::cout<<"pos_show : "<<a<<std::endl;
+    std::cout<<"neg_show : "<<b<<std::endl<<std::endl;
+
+    std::cout<<"****************************************"<<std::endl<<std::endl;
+
+    int pos_int {77171};
+    int neg_int {-1232};
+    double double_num{211.432};
+
+    std::cout<<"pos_int : "<<pos_int<<std::endl;
+    std::cout<<"neg_int"<<neg_int<<std::endl;
+    std::cout<<"double_num : "<<double_num<<std::endl<<std::endl;
+
+    std::cout<<"pos_int"<<std::endl<<std::endl;
+
+    std::cout<<"hex : "<<std::hex<<pos_int<<std::endl;
+    std::cout<<"dec : "<<std::dec<<pos_int<<std::endl;
+    std::cout<<"oct : "<<std::oct<<pos_int<<std::endl<<std::endl;
+
+    std::cout<<"neg_int"<<std::endl<<std::endl;
+
+    std::cout<<"hex : "<<std::hex<<neg_int<<std::endl;
+    std::cout<<"dec : "<<std::dec<<neg_int<<std::endl;
+    std::cout<<"oct : "<<std::oct<<neg_int<<std::endl<<std::endl;
+
+
+    std::cout<<"double_num"<<std::endl<<std::endl;      // it does not work on floating point numbers
+
+    std::cout<<"hex : "<<std::hex<<double_num<<std::endl;
+    std::cout<<"dec : "<<std::dec<<double_num<<std::endl;
+    std::cout<<"oct : "<<std::oct<<double_num<<std::endl;
+
     return 0;
 }
