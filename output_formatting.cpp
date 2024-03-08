@@ -131,6 +131,12 @@ int main(){
     std::cout<<"hex : "<<std::hex<<double_num<<std::endl;
     std::cout<<"dec : "<<std::dec<<double_num<<std::endl;
     std::cout<<"oct : "<<std::oct<<double_num<<std::endl<<std::endl;
+<<<<<<< HEAD
+=======
+
+    std::cout<<"****************************************"<<std::endl<<std::endl;
+
+>>>>>>> c7ddabb0119a744d52b003619cc1b068a71b2cb3
 
     std::cout<<"****************************************"<<std::endl<<std::endl;
 
