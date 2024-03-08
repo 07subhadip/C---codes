@@ -113,6 +113,8 @@ int main(){
 
     std::cout<<"pos_int"<<std::endl<<std::endl;
 
+    std::cout<<std::uppercase;  // the uppercase will convert everything in capital letters
+
     std::cout<<"hex : "<<std::hex<<pos_int<<std::endl;
     std::cout<<"dec : "<<std::dec<<pos_int<<std::endl;
     std::cout<<"oct : "<<std::oct<<pos_int<<std::endl<<std::endl;
@@ -128,7 +130,10 @@ int main(){
 
     std::cout<<"hex : "<<std::hex<<double_num<<std::endl;
     std::cout<<"dec : "<<std::dec<<double_num<<std::endl;
-    std::cout<<"oct : "<<std::oct<<double_num<<std::endl;
+    std::cout<<"oct : "<<std::oct<<double_num<<std::endl<<std::endl;
+
+    std::cout<<"****************************************"<<std::endl<<std::endl;
+
 
     return 0;
 }
