@@ -67,5 +67,17 @@ int main(){
     std::cout<<std::internal;   // the alignment will be internal
     std::cout<<std::setw(10)<<-123.6<<std::endl;
 
+    std::cout<<"Setfill character"<<std::endl<<std::endl;
+
+    std::cout<<std::left;
+    std::cout<<std::setw(col_width)<<"Firstname"<<std::setw(col_width)<<"Lastname"<<std::setw(col_width)<<"Age"<<std::endl<<std::endl;
+
+    std::cout<<std::setfill('-');   // fill the spaces with the given symbol or character
+
+    std::cout<<std::setw(col_width)<<"Subhadip"<<std::setw(col_width)<<"Hensh"<<std::setw(col_width)<<"23"<<std::endl;
+    std::cout<<std::setw(col_width)<<"Anusuya"<<std::setw(col_width)<<"Ghosal"<<std::setw(col_width)<<"22"<<std::endl;
+    std::cout<<std::setw(col_width)<<"Mithu"<<std::setw(col_width)<<"Hensh"<<std::setw(col_width)<<"42"<<std::endl;
+    std::cout<<std::setw(col_width)<<"Dipak"<<std::setw(col_width)<<"Hensh"<<std::setw(col_width)<<"44"<<std::endl;
+
     return 0;
 }
