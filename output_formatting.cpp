@@ -21,7 +21,7 @@ int main(){
     std::cout<<"Subhadip"<<" "<<"Hensh"<<"23"<<std::endl;
     std::cout<<"Anusuya"<<" "<<"Ghosal"<<"22"<<std::endl;
     std::cout<<"Mithu"<<" "<<"Hensh"<<"42"<<std::endl;
-    std::cout<<"Dipak"<<" "<<"Hensh"<<"44"<<std::endl;
+    std::cout<<"Dipak"<<" "<<"Hensh"<<"44"<<std::endl<<std::endl;
        
     std::cout<<"****************************************"<<std::endl<<std::endl;
 
