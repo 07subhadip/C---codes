@@ -113,6 +113,8 @@ int main(){
 
     std::cout<<"pos_int"<<std::endl<<std::endl;
 
+    std::cout<<std::uppercase;  // the uppercase will convert everything in capital letters
+
     std::cout<<"hex : "<<std::hex<<pos_int<<std::endl;
     std::cout<<"dec : "<<std::dec<<pos_int<<std::endl;
     std::cout<<"oct : "<<std::oct<<pos_int<<std::endl<<std::endl;
@@ -128,7 +130,39 @@ int main(){
 
     std::cout<<"hex : "<<std::hex<<double_num<<std::endl;
     std::cout<<"dec : "<<std::dec<<double_num<<std::endl;
-    std::cout<<"oct : "<<std::oct<<double_num<<std::endl;
+    std::cout<<"oct : "<<std::oct<<double_num<<std::endl<<std::endl;
 
+    std::cout<<"****************************************"<<std::endl<<std::endl;
+
+    double A{13123.3423423423423423};   
+    double B {2432.};
+    double C{1.43e-10};
+
+    std::cout<<std::fixed;
+
+    std::cout<<"Fixed Format"<<std::endl<<std::endl;
+
+    std::cout<<"a : "<<A<<std::endl;
+    std::cout<<"b : "<<B<<std::endl;
+    std::cout<<"c : "<<C<<std::endl;
+
+    std::cout<<std::endl;
+
+    std::cout<<"Scientific Format"<<std::endl<<std::endl;
+
+    std::cout<<std::scientific;
+
+    std::cout<<"a : "<<A<<std::endl;
+    std::cout<<"b : "<<B<<std::endl;
+    std::cout<<"c : "<<C<<std::endl;
+
+    std::cout<<std::endl;
+    std::cout<<"Double values back to defaults"<<std::endl<<std::endl;
+
+    std::cout.unsetf(std::ios::scientific | std::ios::fixed);   //HACK
+
+    std::cout<<"a : "<<A<<std::endl;
+    std::cout<<"b : "<<B<<std::endl;
+    std::cout<<"c : "<<C<<std::endl;
     return 0;
 }
