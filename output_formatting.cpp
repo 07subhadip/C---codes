@@ -134,7 +134,7 @@ int main(){
 
     std::cout<<"****************************************"<<std::endl<<std::endl;
 
-    double A{13123.3423423423423423};   
+    double A{13123.342342342342342342342342423423432};   
     double B {2432.};
     double C{1.43e-10};
 
@@ -163,6 +163,15 @@ int main(){
 
     std::cout<<"a : "<<A<<std::endl;
     std::cout<<"b : "<<B<<std::endl;
-    std::cout<<"c : "<<C<<std::endl;
+    std::cout<<"c : "<<C<<std::endl<<std::endl;
+
+    std::cout<<"****************************************"<<std::endl<<std::endl;
+
+    std::cout<<"Setprecision"<<std::endl<<std::endl;
+
+    std::cout<<"A : "<<std::setprecision(10)<<A<<std::endl;
+    std::cout<<"A : "<<std::setprecision(20)<<A<<std::endl;
+
+
     return 0;
 }
