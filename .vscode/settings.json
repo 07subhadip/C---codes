@@ -52,5 +52,6 @@
         "Ghosal",
         "Lastname",
         "Mithu"
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
 }
