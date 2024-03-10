@@ -8,8 +8,13 @@ int main(){
     int a{45};
     int b{50};
 
-    max = (a<b)?a:b;
+    max = ( a < b ) ? a : b ;    // ternary operator
 
     std::cout<<"Result : "<<max<<std::endl;
+
+    auto max1 = (a>b)?a:22.5f;   // using auto with float literal
+
+    std::cout<<"max1 : "<<max1<<std::endl;
+
     return 0;
 }
