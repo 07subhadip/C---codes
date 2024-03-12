@@ -6,5 +6,12 @@ int main(){
     }
     std::cout<<"Loop Ended"<<std::endl;
 
+    // use size_t : a representation of some unsigned int for positive numbers
+
+    for(size_t j{0} ; j<10 ;j++){
+        std::cout<<j<<" : I Love C++"<<std::endl;
+    }
+    std::cout<<"Loops Done ! "<<std::endl;
+
     return 0;
 }
