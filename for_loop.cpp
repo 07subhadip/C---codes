@@ -5,6 +5,6 @@ int main(){
         std::cout<<i<<" : I Love C++"<<std::endl;
     }
     std::cout<<"Loop Ended"<<std::endl;
-    
+
     return 0;
 }
