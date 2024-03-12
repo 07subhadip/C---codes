@@ -16,5 +16,10 @@ int main(){
 
     std::cout<<"max1 : "<<max1<<std::endl;
 
+    // initialize ternary operators
+    bool fast {false};
+    auto speed {fast ? 300 : 150};
+    std::cout<<"Variable : "<< speed<<std::endl;
+
     return 0;
 }
