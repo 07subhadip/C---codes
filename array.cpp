@@ -30,7 +30,7 @@ int main(){
 
     int class_size[]{12,34,23,354,234,43,5,3};
 
-    // will print this with a range base for loop
+    // will print this with a range based for loop
     for(auto value : class_size){
         std::cout<<"class_size [ ] : "<<value<<std::endl;
     }
