@@ -23,5 +23,16 @@ int main(){
         std::cout<<"number["<<i<<"] : "<<number[i]<<std::endl;
     }
     
+
+    std::cout<<std::endl<<std::endl;
+
+    //omit the size of array at the declaration
+
+    int class_size[]{12,34,23,354,234,43,5,3};
+
+    // will print this with a range base for loop
+    for(auto value : class_size){
+        std::cout<<"class_size [ ] : "<<value<<std::endl;
+    }
     return 0;
 }
