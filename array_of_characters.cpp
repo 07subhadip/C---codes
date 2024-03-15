@@ -14,5 +14,12 @@ int main(){
     char name1[6]{'s','u','b','h','a'};     // instead of adding the null terminator character we can do this
     std::cout<<name1<<std::endl;
     std::cout<<"sizeof(name1) : "<<sizeof(name1)<<std::endl;
+
+    // String literals
+
+    char message1[]{"Hello World"};
+    std::cout<<"message : "<<message1<<std::endl;
+    std::cout<<"sizeof(message) : "<<sizeof(message1)<<std::endl;
+
     return 0;
 }
