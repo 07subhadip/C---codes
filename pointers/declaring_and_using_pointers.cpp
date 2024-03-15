@@ -30,6 +30,5 @@ int main(){
     std::cout<<"int_var : "<<int_var<<std::endl;
     std::cout<<"ptr(address of int_var) : "<<ptr<<std::endl;
     std::cout<<"ptr(address of int_var) : "<<*ptr<<std::endl;   //dereferencing a pointer
-    
     return 0;
 }
