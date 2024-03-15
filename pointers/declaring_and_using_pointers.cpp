@@ -24,5 +24,12 @@ int main(){
     std::cout<<"sizeof(pointer2) : "<<sizeof(pointer2)<<std::endl;
     std::cout<<"sizeof(other_variable2) : "<<sizeof(other_variable2)<<std::endl;
 
+    int int_var{45};
+    int* ptr{&int_var};     // referencing a pointer
+
+    std::cout<<"int_var : "<<int_var<<std::endl;
+    std::cout<<"ptr(address of int_var) : "<<ptr<<std::endl;
+    std::cout<<"ptr(address of int_var) : "<<*ptr<<std::endl;   //dereferencing a pointer
+    
     return 0;
 }
