@@ -26,5 +26,6 @@
 /array.exe
 /array_of_characters.exe
 /bound_of_array.exe
-/declaring_and_using_pointers.exe
+# /declaring_and_using_pointers.exe
+/pointers/declaring_and_using_pointers.exe
 
