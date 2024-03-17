@@ -17,6 +17,13 @@ int main(){
     std::cout<<"p_number : "<<p_number<<std::endl;      // this will print the address
     std::cout<<"p_number : "<<*p_number<<std::endl;     // this will print the value in the address
 
+    delete p_number;    // memory returned to the OS
+
+    std::cout<<"delete is done..."<<std::endl;
+
+    *p_number = 45;     // cause a program crash
+
+    std::cout<<"p_number : "<<*p_number<<std::endl; // this will not print at all
 
 
     return 0;
