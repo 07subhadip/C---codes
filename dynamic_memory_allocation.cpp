@@ -21,9 +21,23 @@ int main(){
 
     std::cout<<"delete is done..."<<std::endl;
 
-    *p_number = 45;     // cause a program crash
+    // *p_number = 45;     // cause a program crash
 
-    std::cout<<"p_number : "<<*p_number<<std::endl; // this will not print at all
+    // std::cout<<"p_number : "<<*p_number<<std::endl; // this will not print at all
+
+    // but we can use this instead
+
+    p_number = nullptr;
+
+    p_number = new int(82);
+
+    std::cout<<"p_number : "<<*p_number<<std::endl;
+
+    int* p_number2 {new int(32)};
+
+    std::cout<<"p_number2 : "<<*p_number2<<std::endl;
+
+
 
 
     return 0;
