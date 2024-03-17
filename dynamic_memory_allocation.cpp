@@ -37,6 +37,12 @@ int main(){
 
     std::cout<<"p_number2 : "<<*p_number2<<std::endl;
 
+    delete p_number2;
+    p_number2 = nullptr;
+
+    std::cout<<"program is ending well..."<<std::endl;
+    
+
 
 
 
