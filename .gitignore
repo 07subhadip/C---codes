@@ -31,3 +31,4 @@
 /pointers/declaring_and_using_pointers.exe
 /pointers/pointer_to_char.exe
 /dynamic_memory_allocation.exe
+/pointers/dangling_pointers.exe
