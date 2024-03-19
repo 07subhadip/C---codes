@@ -32,3 +32,4 @@
 /pointers/pointer_to_char.exe
 /dynamic_memory_allocation.exe
 /pointers/dangling_pointers.exe
+/pointers/when_new_fails.exe
