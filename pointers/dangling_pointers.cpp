@@ -9,7 +9,7 @@ int main(){
     
     std::cout<<"*****************************************************************"<<std::endl<<std::endl;
 
-    // Deleted Pointers
+    //Case2 :  Deleted Pointers
     int* p_number2 {new int(69)};
 
     std::cout<<"p_number2 : "<<p_number2<<std::endl;
@@ -22,7 +22,7 @@ int main(){
 
     std::cout<<"*****************************************************************"<<std::endl<<std::endl;
 
-    // Multiple pointers to same address
+    // Case3 :  Multiple pointers to same address
 
     int* p_number3{new int(43)};
     int* p_number4{p_number3};
@@ -65,6 +65,28 @@ int main(){
     }else{
         std::cout<<"Invalid Address..."<<std::endl;
     }
+
+    std::cout<<"*****************************************************************"<<std::endl<<std::endl;
+
+    // SOLUTION 3 : After deleting the master pointer set it to nullptr
+
+    int* p_number8{new int{3242}};
+    int* p_number9{p_number9};
+
+    if(p_number8==nullptr){
+        std::cout<<"p_number8 : "<<p_number8<<std::endl;
+    }
+
+    delete p_number8;
+
+    p_number8 = nullptr;
+
+    if(p_number8==nullptr){
+        std::cout<<"p_number9 : "<<p_number9<<std::endl;
+    }else{
+        std::cout<<"Invalid Address..."<<std::endl;
+    }
+
 
     return 0;
 }
