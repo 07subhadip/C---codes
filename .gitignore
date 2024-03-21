@@ -35,3 +35,4 @@
 /pointers/when_new_fails.exe
 /pointers/null_pointer_safety.exe
 /pointers/memory_leaks.exe
+/pointers/dynamic_arrays.exe
