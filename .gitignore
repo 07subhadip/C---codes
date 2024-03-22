@@ -36,3 +36,4 @@
 /pointers/null_pointer_safety.exe
 /pointers/memory_leaks.exe
 /pointers/dynamic_arrays.exe
+/pointers/references.exe
