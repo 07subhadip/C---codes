@@ -13,5 +13,12 @@ int main(){
     std::cout<<"age : "<<age<<std::endl;
     std::cout<<"ref_age : "<<ref_age<<std::endl;
 
+    std::cout<<std::endl<<"*****************************************************"<<std::endl<<std::endl;
+
+    // simulating reference behaviour with pointers
+    const int* const p_age{&age};
+
+    // *p_age = 45;         this will give a compiler error
+    std::cout<<"*p_age : "<<*p_age<<std::endl;
     return 0;
 }
