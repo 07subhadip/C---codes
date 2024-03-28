@@ -1,16 +1,34 @@
 #include<iostream>
 
 int main(){
-    /*
-    i'm creating this just for the GitHub strick
-    */
-   /*
-   Again in 25/03/2024 commit changes only fotr the strick
-   */
-  /*
-    Again in 26/03/2024 commit changes only for the GitHub strick
-  */
+  // Declareing pointer and references
+  double double_value{102.34};
+  double& ref_double_value{double_value};
+  double* p_double_value{&double_value};
 
-  std::cout<<"Hello World..."<<std::endl;
-    return 0;
+  std::cout<<"double_Value : "<<double_value<<std::endl;
+  std::cout<<"Ref_double_value : "<<ref_double_value<<std::endl;
+  std::cout<<"p_double_value : "<<p_double_value<<std::endl;
+  std::cout<<"*p_double_value : "<<*p_double_value<<std::endl;
+
+  std::cout<<"*******************************************************"<<std::endl<<std::endl;
+
+  *p_double_value = 11.23;
+
+  std::cout<<"double_Value : "<<double_value<<std::endl;
+  std::cout<<"Ref_double_value : "<<ref_double_value<<std::endl;
+  std::cout<<"p_double_value : "<<p_double_value<<std::endl;
+  std::cout<<"*p_double_value : "<<*p_double_value<<std::endl;
+
+  std::cout<<"*******************************************************"<<std::endl<<std::endl;
+
+  ref_double_value = 23.76;
+  
+  std::cout<<"double_Value : "<<double_value<<std::endl;
+  std::cout<<"Ref_double_value : "<<ref_double_value<<std::endl;
+  std::cout<<"p_double_value : "<<p_double_value<<std::endl;
+  std::cout<<"*p_double_value : "<<*p_double_value<<std::endl;
+
+
+  return 0;
 }
