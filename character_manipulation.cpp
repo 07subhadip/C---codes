@@ -118,6 +118,8 @@ int main(){
 
     size_t length = sizeof(original_str)/sizeof(original_str[0]);
 
+    std::cout<<"Original String : "<<original_str<<std::endl;
+    
     // Converting to lower to uppercase
     for(size_t i{0};i<length;i++){
         dest_str[i] = std::toupper(original_str[i]);
