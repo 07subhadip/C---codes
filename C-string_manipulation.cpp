@@ -33,5 +33,26 @@ int main(){
 
     std::cout<<"std::strcmp("<<string_data5<<","<<string_data6<<") : "<<std::strcmp(string_data5,string_data6)<<std::endl;  // strcmp compairs according to the lexicographical order
 
+    string_data1 = "India";
+    string_data2 = "Australia";
+
+    std::cout<<"std::strcmp("<<string_data1<<","<<string_data2<<") : "<<std::strcmp(string_data1,string_data2)<<std::endl;
+
+    std::cout<<std::endl<<"************************************************"<<std::endl<<std::endl;
+
+    const char* message3{"Kolkata"};
+    const char* message4{"Kolkate"};
+
+    size_t n{7};
+
+    std::cout<<std::endl<<"std::strncmp("<<message3<<","<<message4<<") : "<<std::strncmp(message3,message4,n)<<std::endl;
+
+     const char* message5{"Kolkata"};
+    const char* message6{"Kolkata"};
+
+    size_t m{4};
+
+    std::cout<<std::endl<<"std::strncmp("<<message5<<","<<message6<<") : "<<std::strncmp(message5,message6,n)<<std::endl;
+
     return 0;
 }
