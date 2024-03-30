@@ -18,6 +18,8 @@ int main(){
 
     // using strcmp
 
+    // here the comparison is occuring using the ASCII values 
+
     const char* string_data1 {"Alabama"};
     const char* string_data2 {"Blabama"};
 
@@ -47,12 +49,36 @@ int main(){
 
     std::cout<<std::endl<<"std::strncmp("<<message3<<","<<message4<<") : "<<std::strncmp(message3,message4,n)<<std::endl;
 
-     const char* message5{"Kolkata"};
+    const char* message5{"Kolkata"};
     const char* message6{"Kolkata"};
 
     size_t m{4};
 
     std::cout<<std::endl<<"std::strncmp("<<message5<<","<<message6<<") : "<<std::strncmp(message5,message6,n)<<std::endl;
+
+    std::cout<<std::endl;
+
+    size_t a{7};
+    string_data1 = "kolkata";
+    string_data2 = "kolkate";
+
+    std::cout<<"std::strncmp("<<string_data1<<","<<string_data2<<") : "<<std::strncmp(string_data1,string_data2,a)<<std::endl;
+
+    std::cout<<std::endl<<"************************************************"<<std::endl<<std::endl;
+
+    // Searching character in a string using strchr(result,target)
+
+    const char* const str{"Try not. Do, or do not. There is no try. The sky is blue."};
+    char target = 'T';
+    const char* result{str};
+    size_t iterations{};
+
+    while((result=std::strchr(result,target))!=nullptr){
+        std::cout<<"Found '"<<target<<"' starting at : "<<result<<"\n"<<std::endl;
+        ++result;
+        ++iterations;
+    }
+    std::cout<<"Iterations : "<<iterations<<std::endl;
 
     return 0;
 }
