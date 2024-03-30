@@ -80,5 +80,16 @@ int main(){
     }
     std::cout<<"Iterations : "<<iterations<<std::endl;
 
+    std::cout<<std::endl<<"************************************************"<<std::endl<<std::endl;
+
+    // find last occurence usnig std::strrchr
+
+    char input[]{"/home/user/hello.cpp"};
+    char* output = std::strrchr(input,'/');
+    if(output){
+        std::cout<<output+1<<std::endl;
+    }
+
+
     return 0;
 }
