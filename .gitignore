@@ -41,4 +41,5 @@
 /pointers/references_and_const.exe
 /character_manipulation.exe
 /C-string_manipulation.exe
-C-string_concatination_and_copying.exe
+/C-string_concatination_and_copying.exe
+/new
