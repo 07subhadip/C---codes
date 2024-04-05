@@ -23,6 +23,9 @@ int main(){
     Person person1("Subhadip Hensh",23);        // I had faced a confilct here between p1 and person1
     person1.print_info();
 
+    Person person2("Anusuya Ghosal",22);
+    person2.print_info();
+
 
 
 
