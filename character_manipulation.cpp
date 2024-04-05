@@ -90,7 +90,7 @@ int main(){
         }
         
     }
-    std::cout<<std::endl<<"Total uppercase found : "<<uppercase_count<<" and total lower case found : "<<lowercase_count<<std::endl;
+    std::cout<<std::endl<<"Total uppercase found : "<<uppercase_count<<" ,and total lower case found : "<<lowercase_count<<std::endl;
 
     // check for digit or not
 
