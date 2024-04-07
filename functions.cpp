@@ -39,7 +39,7 @@ int increment_multiply(int a,int b){
     std::cout<<"a : "<<a<<std::endl;
     std::cout<<"b : "<<b<<std::endl;
 
-    int multiply = (++a * b++);
+    int multiply = ((++a) * (++b));
     std::cout<<"multiply : "<<multiply<<std::endl;
     std::cout<<"After increment"<<std::endl;
     std::cout<<"a : "<<a<<std::endl;
