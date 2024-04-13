@@ -45,7 +45,13 @@
         "ctime": "cpp",
         "iomanip": "cpp",
         "complex": "cpp",
-        "cstring": "cpp"
+        "cstring": "cpp",
+        "bit": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "optional": "cpp",
+        "string_view": "cpp",
+        "numbers": "cpp"
     },
     "cSpell.words": [
         "Anusuya",
