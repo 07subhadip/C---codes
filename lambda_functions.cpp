@@ -31,7 +31,27 @@ int main(){
     };
 
     func1(23.43,54.65);
+
+    // Lambda function that return something
+
+    auto result = [](double a,double b){
+        return a+b;
+    }(12,12);
+    std::cout<<"result : "<<result<<std::endl;
     
+    std::cout<<"result : "<<[](int a,int b){
+        return a+b;
+    }(23,23)<<std::endl;
+
+    // Explicitly specify the return type
+
+    auto answer = [](double a ,double b)->int{
+        return a+b;
+    };
+
+    std::cout<<"answer : "<<answer(20.21,20.23)<<std::endl;
+    std::cout<<"sizeof(answer) : "<<sizeof(answer)<<std::endl;
+
     std::cout<<"Done!"<<std::endl;
 
     return 0;
