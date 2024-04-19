@@ -46,15 +46,26 @@ int main(){
     // Explicitly specify the return type
 
     auto answer = [](double a ,double b)->int{
-        return a+b;
+        return static_cast<int>(a+b);
     };
 
     std::cout<<"answer : "<<answer(20.21,20.23)<<std::endl;
     std::cout<<"sizeof(answer) : "<<sizeof(answer)<<std::endl;
 
+    auto function = [](double a,double b)->int{
+        if(a>b)
+        return static_cast<int>(a);
+        else
+        return static_cast<int>(b);
+    };
+
+    std::cout<<"max : "<<function(23,32)<<std::endl;
+
+
     std::cout<<"Done!"<<std::endl;
+
 
     return 0;
 
-    // comment added
+    
 }
